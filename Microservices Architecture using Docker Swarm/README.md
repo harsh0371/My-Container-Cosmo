@@ -26,7 +26,7 @@ docker swarm init
 This makes your machine the Swarm Manager.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/6608dac43e01c02694a65abaaeb704b9cb618708/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015611.png" alt="Project Screenshot" />
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/816d48c31328d40ce6eee62f6af1895b23cbd485/Microservices%20Architecture%20using%20Docker%20Swarm/assets/swarm%20init.png" alt="Swarm Init">
 </p>
 
 ## 📁 Project Structure
@@ -145,7 +145,7 @@ networks:
 docker stack deploy -c docker-compose.yml my_microservices
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/1f2c3564c5332d4c1df541e133a6ffe858f5c3e5/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015836.png" alt="Project Screenshot 2" />
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/816d48c31328d40ce6eee62f6af1895b23cbd485/Microservices%20Architecture%20using%20Docker%20Swarm/assets/deploy%20stack.png" alt="Deploy Stack">
 </p>
 
 ## 📊 Step 6: Verify the Deployment
@@ -153,14 +153,14 @@ docker stack deploy -c docker-compose.yml my_microservices
 docker stack services my_microservices
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/1f2c3564c5332d4c1df541e133a6ffe858f5c3e5/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015857.png" alt="Project Screenshot 3" />
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/816d48c31328d40ce6eee62f6af1895b23cbd485/Microservices%20Architecture%20using%20Docker%20Swarm/assets/verify%20stack.png" alt="Verify Stack">
 </p>
 
 ```sh
 docker ps
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/1f2c3564c5332d4c1df541e133a6ffe858f5c3e5/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015912.png" alt="Project Screenshot 4" />
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/816d48c31328d40ce6eee62f6af1895b23cbd485/Microservices%20Architecture%20using%20Docker%20Swarm/assets/docker%20ps.png" alt="Docker PS">
 </p>
 
 ## 🌐 Step 7: Access the Microservices
@@ -168,10 +168,10 @@ Open your browser and go to:
 ```sh
 http://localhost:8080
 ```
-You should see: **API Gateway: rajput_tarakk**
+You should see: **API Gateway: harsh_gahlyan**
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/d470c6d6dac0fd0010f139168e48e4086da874f4/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015446.png" alt="Project Screenshot" />
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/816d48c31328d40ce6eee62f6af1895b23cbd485/Microservices%20Architecture%20using%20Docker%20Swarm/assets/browser.png" alt="Browser">
 </p>
 
 ## 🔄 Step 8: Scaling the Services
