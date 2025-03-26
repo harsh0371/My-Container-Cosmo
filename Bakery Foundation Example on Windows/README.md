@@ -126,7 +126,7 @@ Run the following AWS CLI command to get the latest Ubuntu AMI:
 aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*" --query "Images | sort_by(@, &CreationDate)[-1].ImageId" --output text
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/6d5d87e85a40602d2a417ef341625bd7b6d38607/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011116.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/1.png" alt="Bakery Foundation Example Step 1">
 </p>
 
 ✅ Update `bakery.pkr.hcl` by replacing the **`source_ami`** with the new AMI ID:
@@ -166,7 +166,7 @@ packer validate bakery.pkr.hcl
 ✅ Expected Output: The configuration is valid.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011135.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/2.png" alt="Bakery Foundation Example Step 2">
 </p>
 
 ### 3.2 Build the Machine Image
@@ -184,10 +184,16 @@ This will:
 - Delete the temporary instance.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011212.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/3.png" alt="Bakery Foundation Example Step 3">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/4.png" alt="Bakery Foundation Example Step 4">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/5.png" alt="Bakery Foundation Example Step 5">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/6.png" alt="Bakery Foundation Example Step 6">
 </p>
 
 ## Step 4: Deploy and Test the AMI
@@ -198,7 +204,7 @@ This will:
 3. Find the AMI named: bakery-foundation-python39-timestamp
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/7.png" alt="Bakery Foundation Example Step 7">
 </p>
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
@@ -213,13 +219,13 @@ This will:
 5. Click **Launch**! 🚀
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/8.png" alt="Bakery Foundation Example Step 8">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/9.png" alt="Bakery Foundation Example Step 9">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/10.png" alt="Bakery Foundation Example Step 10">
 </p>
 
 ### 4.3 Connect to the Instance  
@@ -246,7 +252,10 @@ python3.9 --version
 ✅ Expected Output:
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/614806e3f3f17ba56c9270b451a777afbcba2451/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20030112.png?raw=true" alt="Screenshot">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/11.png" alt="Bakery Foundation Example Step 11">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harsh0371/My-Container-Cosmo/525c1db310010a8d73ad35db318b06533c654e40/Bakery%20Foundation%20Example%20on%20Windows/images/12.png" alt="Bakery Foundation Example Step 12">
 </p>
 
 ## Default Ubuntu Python Version
