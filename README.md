@@ -52,9 +52,19 @@ Welcome to **My-Container-Cosmo**! 🌊 This repository is my personal **dockyar
 - **Goal:** Set up **Packer** on Windows to create a **custom Amazon Machine Image (AMI)** with Python 3.9.  
 - **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.  
 
+### 13. [Jenkins Orchestration 🤵](https://github.com/harsh0371/Jenkins-Orchestration.git)
+- **Goal:** This project demonstrates a **simple Python application** with a complete **CI/CD pipeline** using **Jenkins, Docker, and GitHub**.  
+- **Key Focus:**  
+  - Automating builds and deployments using **Jenkins pipelines**.  
+  - **Containerizing** a Python application using Docker.  
+  - Running **automated tests** before deployment.  
+  - Enabling **Continuous Integration and Continuous Deployment (CI/CD)** workflows.  
+- **Overview:**  
+  The application provides a **command-line tool** that adds two numbers together. The pipeline ensures **code quality and reliability** by running automated tests before pushing the final image to a container registry.
+  
 ---
 
-## 🌊 Why This Dockyard? ⚓  
+## 🌊 Why This Cosmo? ⚓  
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡  
 - **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.  
 - **Approach:** Hands-on projects that focus on **modular, scalable, and production-ready** implementations.  
